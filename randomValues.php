@@ -46,9 +46,9 @@ Write a series PHP scripts to generate a random number for each of the following
 
 
 <?php
-echo "Random number (1–27): " . rand(1,27) . "<br>";
-echo "Random number (1–178): " . rand(1,178) . "<br>";
-echo "Random number (1–600): " . rand(1,600);
+echo "Random number (1-27): " . rand(1,27) . "<br>";
+echo "Random number (1-178): " . rand(1,178) . "<br>";
+echo "Random number (1-600): " . rand(1,600);
 ?>
 
 
