@@ -1,0 +1,219 @@
+body{
+font-family: Arial, sans-serif;
+background-color:#f4f4f4;
+margin:0;
+padding:0;
+}
+
+
+header{
+background-color:#2452a2;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+
+.container{
+width:80%;
+margin:auto;
+padding: 20px;
+}
+
+
+.box{
+background:white;
+padding:20px;
+margin-bottom:30px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+border-style: solid;
+border-color: #0066cc;
+font-weight:bold;
+}
+
+/* H1 - H2 - H3 */
+h1{
+ color:#113567;
+}
+
+.center{
+    text-align: center;
+}
+
+.white{
+color: white;
+}
+
+h2{
+border-bottom:2px solid #ddd;
+padding-bottom:10px;
+color: #0066cc;
+}
+
+.bis23{
+    text-align: center;
+    color: #0066cc;
+    font-weight:bold;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+/* Navbar container */
+.navbar {
+    background-color:#113567;
+    padding: 10px;
+}
+
+/* Main menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Menu items */
+.nav-menu li {
+    position: relative;
+}
+
+/* Links */
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s ease;
+    font-weight:bold;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+    background-color: #336699;
+    border-radius: 5px;
+}
+
+/* Dropdown menu hidden by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #2452a2;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    list-style: none; 
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    padding: 10px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown-menu {
+        position: static;
+        background-color: #1e293b;
+        box-shadow: none;
+    }
+
+      .active {
+    background-color: #3b82f6;
+    border-radius: 5px;
+}
+
+}
+
+
+/* TABLE */
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-color: #113567;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-color:#113567;
+  border-width: 4px;
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #113567;
+  color: white;
+}
+/* END OF THE TABLE */
+
+
+/* a{
+display:block;
+margin:10px 0;
+color:#0066cc;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+a:hover{
+text-decoration:underline;
+color:#003366;
+}
+
+.mini-nav{
+background:#113567;
+text-align:center;
+padding:10px;
+}
+
+.mini-nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.mini-nav a:hover{
+text-decoration:underline;
+} */
+
+
+
+/* FOOTER AREA */
+footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2452a2;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer a{
+    color: white;
+}
